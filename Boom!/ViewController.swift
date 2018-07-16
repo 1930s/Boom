@@ -23,9 +23,7 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate, RPPreviewVie
     @IBOutlet weak var cameraButton: UIButton!
     @IBOutlet weak var filteredImage: UIImageView!
     @IBOutlet weak var faceGuide: UIImageView!
-    @IBOutlet weak var retryButton: UIButton!
-    @IBOutlet weak var capturedImage: UIImageView!
-    
+    @IBOutlet weak var retryButton: UIButton!    
     @IBOutlet weak var faceguideLabel: UITextView!
     
     let screenRecorder = RPScreenRecorder.shared()
